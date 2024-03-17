@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <title>SkillENG dgdfg</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__func">
+                <div class="header__func__top">
+                    <img class="header__func__img" src="./assets/img/logo.svg" alt="">
+                    <div class="header__func__menu">
+                        <select name="city" id="citySelect">
+                            <option value="">Усть-каменогорск</option>
+                            <option value="">Усть-каменогорск</option>
+                            <option value="">Астана</option>
+                        </select>
+                        
+                    </div>
+                    <ul class="header__list">
+                        <li><a href="#title" class="header__item header__active" data-section="title">Главная</a></li>
+                        <li><a href="#abstracts" class="header__item" data-section="abstracts">О нас</a></li>
+                        <li><a href="#workshop" class="header__item" data-section="workshop">Наши преподователи</a></li>
+                        <li><a href="#maked" class="header__item" data-section="maked">Программы и тарифы</a></li>
+                        <li><a href="#catalog" class="header__item" data-section="catalog">Форматы обучения</a></li>
+                        <li><a href="#extra" class="header__item" data-section="extra">"Ace effect"</a></li>
+                        <li><a href="#ecokitch" class="header__item" data-section="ecokitch">Сертификат</a></li>
+                        <li><a href="#benefits" class="header__item" data-section="benefits">Результат</a> </li>
+                        <li><a href="#catalogfur" class="header__item" data-section="catalogfur">Адреса</a>
+                        </li>
+                        <li><a href="#shares" class="header__item" data-section="shares">Оставьте заявку</a></li>
+                        <li><a href="#recom" class="header__item" data-section="recom">Вопрос - Ответ</a></li>
+                       
+                    </ul>
+                    <div class="header__func__top__disc">
+                        <div class="header__func__top__disc__btn">
+                            <button class="header__func__btn">ОСТАВИТЬ ЗАЯВКУ</button>
+                        </div>
+                        <img class="whatsapp" src="./assets/img/whatsapp.svg" alt="">
+                        <button class="burger" id="burger">
+                            <span>burger</span>
+                        </button>
+                    </div>
+                </div>
+                <nav class="menu" id="menu">
+                    <a class="menu__link  active" href="#">Главная</a>
+                    <a class="menu__link" href="#">Контакты</a>
+
+                </nav>
+                <a class="header__phone-number"  href="">+7 707 336-66-65</a>
+                <button class="header__button" >ОСТАВИТЬ ЗАЯВКУ</button>
+
+            </div>
+        </header>
+        <main class="main">
+            <section id="title" class="title">
+                <h1 class="all__title">
+                    <p>ПРОФЕССИОНАЛЬНЫЙ ЦЕНТР ИЗУЧЕНИЯ</p> АНГЛИЙСКОГО ЯЗЫКА "SKILLENG"
+                </h1>
+                <div class="container ">
+                    <div class="title__slider">
+                        <img src="https://via.placeholder.com/350x200" alt="">
+                        <img src="https://via.placeholder.com/350x200" alt="">
+                        <img src="https://via.placeholder.com/350x200" alt="">
+                        <img src="https://via.placeholder.com/350x200" alt="">
+                        <img src="https://via.placeholder.com/350x200" alt="">
+                        <img src="https://via.placeholder.com/350x200" alt="">
+                    </div>
+                    <button class="title__button">
+                        ОСТАВИТЬ ЗАЯВКУ
+                    </button>
+                </div>
+            </section>
+            <section id="abstracts" class="present">
+                <h1 class="all__title">
+                    <p>ПРОФЕССИОНАЛЬНЫЙ ЦЕНТР ИЗУЧЕНИЯ</p> АНГЛИЙСКОГО ЯЗЫКА "SKILLENG"
+                </h1>
+                <div class="container">
+                    <div class="present__list">
+                        <div class="present__item">
+                            <div class="present__item__img">
+                                <div class="present__item__img__cont">
+                                    <img src="https://via.placeholder.com/350x113" alt="">
+                                    <p class="present__item__img__disc">Преподаватели ACE</p>
+                                </div>
+                            </div>
+                            <div class="present__item__disc">
+                                <p>Профи с большим опытом работы и сертификатами <span>CELTA, DELTA и TESOL</span></p>
+                            </div>
+                        </div>
+                        <div class="present__item">
+                            <div class="present__item__img">
+                                <div class="present__item__img__cont">
+                                    <img src="https://via.placeholder.com/350x113" alt="">
+                                    <p class="present__item__img__disc">Мини-группы до 7 человек</p>
+                                </div>
+                            </div>
+                            <div class="present__item__disc">
+                                <p>Самый оптимальный размер групп для эффективного обучения английскому языку</p>
+                            </div>
+                        </div>
+                        <div class="present__item">
+                            <div class="present__item__img">
+                                <div class="present__item__img__cont">
+                                    <img src="https://via.placeholder.com/350x113" alt="">
+                                    <p class="present__item__img__disc">Адаптированная программа</p>
+                                </div>
+                            </div>
+                            <div class="present__item__disc">
+                                <p>Мы создаем учебный план исходя из Ваших пожеланий и требований, и уровня.</p>
+                            </div>
+                        </div>
+                        <div class="present__item">
+                            <div class="present__item__img">
+                                <div class="present__item__img__cont">
+                                    <img src="https://via.placeholder.com/350x113" alt="">
+                                    <p class="present__item__img__disc">Гарантия результата и возврат денег</p>
+                                </div>
+                            </div>
+                            <div class="present__item__disc">
+                                <p>Если вы посетили все занятия но не сдали итоговый тест, то мы вернем деньги</p>
+                            </div>
+                        </div>
+                        <div class="present__item">
+                            <div class="present__item__img">
+                                <div class="present__item__img__cont">
+                                    <img src="https://via.placeholder.com/350x113" alt="">
+                                    <p class="present__item__img__disc">Усовершенственная методика</p>
+                                </div>
+                            </div>
+                            <div class="present__item__disc">
+                                <p>Лексический подход + погружение в языковую среду + преподаватели мирового уровня</p>
+                            </div>
+                        </div>
+                        <div class="present__item">
+                            <div class="present__item__img">
+                                <div class="present__item__img__cont">
+                                    <img src="https://via.placeholder.com/350x113" alt="">
+                                    <p class="present__item__img__disc">> 1000 студентов за 5 лет</p>
+                                </div>
+                            </div>
+                            <div class="present__item__disc">
+                                <p>Поступили в зарубежные вузы, устроились в иностранные фирмы, открыли бизнес за
+                                    границей</p>
+                            </div>
+                        </div>
+                        <div class="present__item">
+                            <div class="present__item__img">
+                                <div class="present__item__img__cont">
+                                    <img src="https://via.placeholder.com/350x113" alt="">
+                                    <p class="present__item__img__disc">80% приходят по рекомендациям</p>
+                                </div>
+                            </div>
+                            <div class="present__item__disc">
+                                <p>Основные наши клиенты приходят к нам из-за хороших отзывов друзей</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="present__slider">
+                    <img src="https://via.placeholder.com/259x147" alt="">
+                    <img src="https://via.placeholder.com/259x147" alt="">
+                    <img src="https://via.placeholder.com/259x147" alt="">
+                    <img src="https://via.placeholder.com/259x147" alt="">
+                    <img src="https://via.placeholder.com/259x147" alt="">
+                    <img src="https://via.placeholder.com/259x147" alt="">
+                </div>
+            </section>
+            <section id="workshop" class="teachers">
+                <div class="container teachers__container">
+                    <h1 class="all__title teachers__title"><p>
+                        СИЛЬНЫЕ
+                            ПРЕПОДАВАТЕЛИ
+                    </p></h1>
+                    <div class="teachers__country">
+                        <img src="./assets/img/country1.svg" alt="">
+                        <img src="./assets/img/country2.svg" alt="">
+                        <img src="./assets/img/country3.svg" alt="">
+                    </div>
+                    <p class="teachers__disc">Из США, Великобритании, Канады.
+                        А также высококвалифицированные русскоговорящие преподаватели
+                    </p>
+                    <div class="teachers__list">
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers1.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers2.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers1.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers2.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers1.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers2.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers1.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+                        <div class="teachers__item">
+                            <img src="./assets/img/teachers2.svg" alt="">
+                            <h1>Николас</h1>
+                            <p>Великобритания</p>
+                        </div>
+
+                    </div>
+                    <div class="teachers__button__wrapper">
+                        <button class="teachers__button">
+                            СМОТРЕТЬ ЕЩЕ
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="maked" class="tariff">
+                <div class="container">
+                    <h1 class="all__title"><p>
+                        ПРОГРАММЫ
+                            И ТАРИФЫ
+                    </p></h1>
+                    <div class="tariff__list">
+                        <div class="tariff__item">
+                            <p class="tariff__item__title">СТАНДАРТНЫЙ</p>
+                            <div class="tariff__item__var">
+                                <p class="tariff__item__var__text">Комфортный темп с практикой и грамматикой</p>
+                                <img src="https://via.placeholder.com/331x188" alt="">
+                                <div class="tariff__item__disc">
+                                    <p>Время</p>
+                                    <p>Носитель тг/мес</p>
+                                    <p>Русског. тг/мес</p>
+                                    <p>Утром / днем</p>
+                                    <p class="tariff__item__var__number">30 000</p>
+                                    <p class="tariff__item__var__number">20 000</p>
+                                    <p>Вечером</p>
+                                    <p class="tariff__item__var__number">40 000</p>
+                                    <p class="tariff__item__var__number">30 000</p>
+                                </div>
+                                <div class="tariff__item__func">
+                                    <button class="tariff__item__func1">Подробнее</button>
+                                    <button class="tariff__item__func2">ЗАПИСАТЬСЯ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tariff__item">
+                            <p class="tariff__item__title">УСКОРЕННЫЙ</p>
+                            <div class="tariff__item__var">
+                                <p class="tariff__item__var__text">Для тех кто хочет быстро освоить язык</p>
+                                <img src="https://via.placeholder.com/331x188" alt="">
+                                <div class="tariff__item__disc">
+                                    <p>Время</p>
+                                    <p>Носитель тг/мес</p>
+                                    <p>Русског. тг/мес</p>
+                                    <p>Утром / днем</p>
+                                    <p class="tariff__item__var__number">30 000</p>
+                                    <p class="tariff__item__var__number">20 000</p>
+                                    <p>Вечером</p>
+                                    <p class="tariff__item__var__number">40 000</p>
+                                    <p class="tariff__item__var__number">30 000</p>
+                                </div>
+                                <div class="tariff__item__func">
+                                    <button class="tariff__item__func1">Подробнее</button>
+                                    <button class="tariff__item__func2">ЗАПИСАТЬСЯ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tariff__item">
+                            <p class="tariff__item__title">РАЗГОВОРНЫЙ</p>
+                            <div class="tariff__item__var">
+                                <p class="tariff__item__var__text">Море разговорной практики</p>
+                                <img src="https://via.placeholder.com/331x188" alt="">
+                                <div class="tariff__item__disc">
+                                    <p>Время</p>
+                                    <p>Носитель тг/мес</p>
+                                    <p>Русског. тг/мес</p>
+                                    <p>Утром / днем</p>
+                                    <p class="tariff__item__var__number">30 000</p>
+                                    <p class="tariff__item__var__number">20 000</p>
+                                    <p>Вечером</p>
+                                    <p class="tariff__item__var__number">40 000</p>
+                                    <p class="tariff__item__var__number">30 000</p>
+                                </div>
+                                <div class="tariff__item__func">
+                                    <button class="tariff__item__func1">Подробнее</button>
+                                    <button class="tariff__item__func2">ЗАПИСАТЬСЯ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tariff__item">
+                            <p class="tariff__item__title">ПОДГОТОВКА К ЭКЗАМЕНУ</p>
+                            <div class="tariff__item__var">
+                                <p class="tariff__item__var__text">Для тех кто хочет учится зарубежом</p>
+                                <img src="https://via.placeholder.com/331x188" alt="">
+                                <div class="tariff__item__disc__text">
+                                    <p class="tariff__item__disc__text__p">B2 First (FCE)</p>
+                                    <p class="tariff__item__disc__text__p">IELTS</p>
+                                    <p class="tariff__item__disc__text__p">C1 Advanced (CAE)</p>
+                                    <p class="tariff__item__disc__text__p">TOEFL</p>
+                                    <p class="tariff__item__disc__text__p">C2 Proficiency (CPE)</p>
+                                    <p class="tariff__item__disc__text__p">LanguageCert SELT</p>
+                                    <p class="tariff__item__disc__text__p">BEC</p>
+                                    <p class="tariff__item__disc__text__p">ЕНТ</p>
+                                </div>
+                                <div class="tariff__item__func">
+                                    <button class="tariff__item__func1">Подробнее</button>
+                                    <button class="tariff__item__func2">ЗАПИСАТЬСЯ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tariff__item item__spec">
+                            <p class="tariff__item__title">ОТРАСЛЕВЫЕ СПЕЦКУРСЫ</p>
+                            <div class="tariff__item__var">
+                                <p class="tariff__item__var__text">Для тех кто хочет работать зарубежом</p>
+                                <img src="https://via.placeholder.com/331x188" alt="">
+                                <div class="tariff__item__disc__text tariff__item__disc__text1">
+                                    <p class="tariff__item__disc__text__p">Бухгалтерский учет и финансы</p>
+                                    <p class="tariff__item__disc__text__p">Энергетический сектор</p>
+                                    <p class="tariff__item__disc__text__p">Продажи и коммерция</p>
+                                    <p class="tariff__item__disc__text__p">Наука, техника, инженерия</p>
+                                    <p class="tariff__item__disc__text__p">IT коммуникации</p>
+                                    <p class="tariff__item__disc__text__p">Юридический</p>
+                                    <p class="tariff__item__disc__text__p">Туризм</p>
+                                    <p class="tariff__item__disc__text__p">Менеджмент</p>
+                                    <p class="tariff__item__disc__text__p">Медицина и фармацевтика</p>
+                                    <p class="tariff__item__disc__text__p">Реклама и маркетинг</p>
+                                </div>
+                                <div class="tariff__item__func">
+                                    <button class="tariff__item__func1">Подробнее</button>
+                                    <button class="tariff__item__func2">ЗАПИСАТЬСЯ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tariff__item">
+                            <p class="tariff__item__title">"РАЗГОВОРНЫЙ КЛУБ"</p>
+                            <div class="tariff__item__var">
+                                <p class="tariff__item__var__text tariff__item__var__text1">Увлекательные
+                                    беседы-дискуссии с носителем языка для дополнительной практики</p>
+                                <img src="https://via.placeholder.com/331x188" alt="">
+
+                                <div class="tariff__item__func">
+                                    <button class="tariff__item__func1">Подробнее</button>
+                                    <button class="tariff__item__func2">ЗАПИСАТЬСЯ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="catalog" class="format">
+                <div class="container">
+                    <h1 class="format__title">ФОРМАТЫ ОБУЧЕНИЯ <span class="format__span">НА ВЫБОР </span></h1>
+                    <div class="format__list">
+                        <div class="format__item">
+                            <div class="format__item__img">
+                                <p class="format__item__img__disc">ИНДИВИДУАЛЬНОЕ ОБУЧЕНИE</p>
+                                <img class="format__item__img__bright" src="https://via.placeholder.com/168x156" alt="">
+                            </div>
+                            <p class="format__item__disc">от 4 000 тг/мес</p>
+                            <div class="format__item__button__wrapper">
+                                <button class="format__item__button">
+                                    Выбрать
+                                </button>
+                            </div>
+                        </div>
+                        <div class="format__item">
+                            <div class="format__item__img">
+                                <p class="format__item__img__disc">ЗАНЯТИЕ
+                                    В ГРУППЕ</p>
+                                <img src="https://via.placeholder.com/168x156" alt="">
+                            </div>
+                            <p class="format__item__disc">от 20 000 тг/мес</p>
+                            <div class="format__item__button__wrapper">
+                                <button class="format__item__button">
+                                    Выбрать
+                                </button>
+                            </div>
+                        </div>
+                        <div class="format__item">
+                            <div class="format__item__img">
+                                <p class="format__item__img__disc">КОРПОРАТИВНОЕ ОБУЧЕНИЕ</p>
+                                <img src="https://via.placeholder.com/168x156" alt="">
+                            </div>
+                            <p class="format__item__disc">от 6 000 тг/мес</p>
+                            <div class="format__item__button__wrapper">
+                                <button class="format__item__button">
+                                    Выбрать
+                                </button>
+                            </div>
+                        </div>
+                        <div class="format__item">
+                            <div class="format__item__img">
+                                <p class="format__item__img__disc">ONLINE
+                                    АНЛИЙСКИЙ</p>
+                                <img src="https://via.placeholder.com/168x156" alt="">
+                            </div>
+                            <p class="format__item__disc">от 15 000 тг/мес</p>
+                            <div class="format__item__button__wrapper">
+                                <button class="format__item__button">
+                                    Выбрать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="extra" class="method">
+                <div class="container">
+                    <h1 class="format__title">МЕТОДИКА ОБУЧЕНИЯ <span class="format__span">"ACE EFFECT" </span></h1>
+                    <div class="method__player">
+                        <img src="https://via.placeholder.com/350x200" alt="">
+                        <img class="method__play" src="./assets/img/method.svg" alt="">
+                    </div>
+                    <div class="method__list">
+                        <div class="method__item">
+                            <img class="method__item__img" src="./assets/img/method1.svg" alt="">
+                            <div class="method__item__img__back"></div>
+                            <h1 class="method__title">КОММУНИКАТИВНАЯ</h1>
+                            <div class="method__item__disc__list">
+                                <p class="method__item__disc">Поднимете свой разговорный английский на новый уровень</p>
+                                <p class="method__item__disc">Быстро и без труда избавитесь от языкового барьера</p>
+                                <p class="method__item__disc">Начнёте думать на английском языке</p>
+                            </div>
+                        </div>
+                        <div class="method__item">
+                            <img class="method__item__img" src="./assets/img/method2.svg" alt="">
+                            <div class="method__item__img__back"></div>
+                            <h1 class="method__title">ТРАДИЦИОННАЯ</h1>
+                            <div class="method__item__disc__list">
+                                <p class="method__item__disc">Освоите самые сложные грамматические конструкции</p>
+                                <p class="method__item__disc">Научитесь грамотной устной и письменной речи</p>
+                                <p class="method__item__disc">Поймёте логику и структуру английского языка</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="ecokitch" class="license">
+                <div class="container ">
+                    <h1 class="all__title lic__title"><p>
+                        СЕРТИФИКАТ ACE
+                            ПО ОКОНЧАНИЮ
+                    </p></h1>
+                    <div class="lic__content">
+                        <div class="license__images">
+                            <img src="./assets/img/license1.svg" alt="">
+                            <img src="./assets/img/license2.svg" alt="">
+                        </div>
+                        <div class="lic__content__text">
+                            <h1 class="license__title"><span>Сертификат </span>American Club of Education</h1>
+                            <p class="license__disc">Cоответствует международным стандартам и пользуется доверием работодателей
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </section>
+            <section id="benefits" class="result">
+                <div class="container">
+                    <h1 class="all__title"><p>
+                        > 1000 СТУДЕНТОВ
+                            ПОЛУЧИЛИ РЕЗУЛЬТАТ
+                    </p></h1>
+                    <div class="result__slider">
+                        <div class="result__item">
+                            <img src="./assets/img/result1.svg" alt="">
+                            <div class="result__item__disc">
+                                <div class="result__item__disc__title">
+                                    <img src="./assets/img/result__head.svg" alt="">
+                                    <h1>Виктория Борисова</h1>
+                                </div>
+                                <div class="result__item__disc__text">
+                                    Я хочу выразить огромную благодарность всей команде
+                                    “SkillEng”! Я начала говорить на англиском всего за 3 месяца...
+                                </div>
+                                <a class="result__item__disc__link" href="#">Читать весь отзыв</a>
+                            </div>
+                        </div>
+                        <div class="result__item">
+                            <img src="./assets/img/result1.svg" alt="">
+                            <div class="result__item__disc">
+                                <div class="result__item__disc__title">
+                                    <img src="./assets/img/result__head.svg" alt="">
+                                    <h1>Виктория Борисова</h1>
+                                </div>
+                                <div class="result__item__disc__text">
+                                    Я хочу выразить огромную благодарность всей команде
+                                    “SkillEng”! Я начала говорить на англиском всего за 3 месяца...
+                                </div>
+                                <a class="result__item__disc__link" href="#">Читать весь отзыв</a>
+                            </div>
+                        </div>
+                        <div class="result__item">
+                            <img src="./assets/img/result1.svg" alt="">
+                            <div class="result__item__disc">
+                                <div class="result__item__disc__title">
+                                    <img src="./assets/img/result__head.svg" alt="">
+                                    <h1>Виктория Борисова</h1>
+                                </div>
+                                <div class="result__item__disc__text">
+                                    Я хочу выразить огромную благодарность всей команде
+                                    “SkillEng”! Я начала говорить на англиском всего за 3 месяца...
+                                </div>
+                                <a class="result__item__disc__link" href="#">Читать весь отзыв</a>
+                            </div>
+                        </div>
+                        <div class="result__item">
+                            <img src="./assets/img/result1.svg" alt="">
+                            <div class="result__item__disc">
+                                <div class="result__item__disc__title">
+                                    <img src="./assets/img/result__head.svg" alt="">
+                                    <h1>Виктория Борисова</h1>
+                                </div>
+                                <div class="result__item__disc__text">
+                                    Я хочу выразить огромную благодарность всей команде
+                                    “SkillEng”! Я начала говорить на англиском всего за 3 месяца...
+                                </div>
+                                <a class="result__item__disc__link" href="#">Читать весь отзыв</a>
+                            </div>
+                        </div>
+                        <div class="result__item">
+                            <img src="./assets/img/result1.svg" alt="">
+                            <div class="result__item__disc">
+                                <div class="result__item__disc__title">
+                                    <img src="./assets/img/result__head.svg" alt="">
+                                    <h1>Виктория Борисова</h1>
+                                </div>
+                                <div class="result__item__disc__text">
+                                    Я хочу выразить огромную благодарность всей команде
+                                    “SkillEng”! Я начала говорить на англиском всего за 3 месяца...
+                                </div>
+                                <a class="result__item__disc__link" href="#">Читать весь отзыв</a>
+                            </div>
+                        </div>
+                        <div class="result__item">
+                            <img src="./assets/img/result1.svg" alt="">
+                            <div class="result__item__disc">
+                                <div class="result__item__disc__title">
+                                    <img src="./assets/img/result__head.svg" alt="">
+                                    <h1>Виктория Борисова</h1>
+                                </div>
+                                <div class="result__item__disc__text">
+                                    Я хочу выразить огромную благодарность всей команде
+                                    “SkillEng”! Я начала говорить на англиском всего за 3 месяца...
+                                </div>
+                                <a class="result__item__disc__link" href="#">Читать весь отзыв</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result__player__list">
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                        <div class="result__player">
+                            <img class="result__player__img" src="https://via.placeholder.com/169x199" alt="">
+                            <img class="result__play" src="./assets/img/method.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="result__achive">
+                        <div class="result__achive__item">
+                            <div class="result__achive__item__img">
+                                <img src="./assets/img/result__ach1.svg" alt="">
+
+                            </div>
+                            <div class="result__achive__item__disc">
+                                <p class="result__achive__item__title">Предприниматели</p>
+                                <p class="result__achive__item__disc__text">Открыли филиалы и нашли клиентов в других
+                                    странах</p>
+                            </div>
+                        </div>
+                        <div class="result__achive__item">
+                            <div class="result__achive__item__img">
+                                <img src="./assets/img/result__ach2.svg" alt="">
+
+                            </div>
+                            <div class="result__achive__item__disc">
+                                <p class="result__achive__item__title">Студенты</p>
+                                <p class="result__achive__item__disc__text">Прошли экзамены и поступили в зарубежные
+                                    вузы</p>
+                            </div>
+                        </div>
+                        <div class="result__achive__item">
+                            <div class="result__achive__item__img">
+                                <img src="./assets/img/result__ach3.svg" alt="">
+
+                            </div>
+                            <div class="result__achive__item__disc">
+                                <p class="result__achive__item__title">Работники</p>
+                                <p class="result__achive__item__disc__text">Нашли высокооплачиваемую работу за границей
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="catalogfur" class="address">
+                <div class="container">
+                    <h1 class="all__title">АДРЕСА</h1>
+                    <div class="address__list">
+                        <div class="address__item">
+                            <img src="https://via.placeholder.com/150x100" alt="">
+                            <div class="address__item__disc">
+                                <h1>Алматы</h1>
+                                <p class="address__item__disc__p">БЦ "Каратал"</p>
+                                <p class="address__item__disc__text">ул. Шевченко 104, 6 этаж,
+                                    23 офис</p>
+                            </div>
+                        </div>
+                        <div class="address__map">
+                            <img class="address__map__img" src="./assets/img/map.svg" alt="">
+                            <img class="address__map__point" src="./assets/img/point.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="shares" class="request">
+                <div class="container">
+                    <div class="request__container">
+                        <h1 class="request__title">ОСТАВЬ ЗАЯВКУ</h1>
+                        <div class="request__content">
+                            <div class="request__image">
+                                <img class="request__image__girl" src="./assets/img/req__girl.svg" alt="">
+                                <div class="request__image__form">
+                                    <img class="request__image__form__paper" src="./assets/img/req__paper.svg" alt="">
+                                    <p>Мы перезвоним Вам в течении
+                                        2 часов</p>
+                                </div>
+                            </div>
+                            <div class="request__info">
+                                <p class="request__info__text">И МЫ СДЕЛАЕМ БЕСПЛАТНЫЙ ЗАМЕР И ДИЗАЙН-ПРОЕКТ</p>
+                                <div class="request__info__inputs">
+                                    <input placeholder="Ваше имя" type="text">
+                                    <input placeholder="+7 (___) ___ __ __" id="phoneInput" type="text">
+                                </div>
+                                <button class="request__info__inputs__btn">Заказать бесплатно</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="recom" class="faq">
+                <div class="container">
+                    <div class="numbers__title">
+                        <h1 class="all__title">ВОПРОС - ОТВЕТ</h1>
+                    </div>
+                    <div class="faq__item" onclick="toggleFaq(this)">
+                        <div class="faq__title">
+                            <p>Какую гарантию Вы даёте?</p>
+                            <img class="faq__arrow" src="./assets/img/faq.svg" alt="">
+                        </div>
+                        <div class="faq__disc">
+                            Гарантийный срок на мебель для кухни — 2 года при соблюдении условий эксплуатации.
+
+                            Гарантийный срок на корпусную мебель — 2 года при соблюдении условий эксплуатации.
+
+                            Гарантийный срок на мягкую мебель составляет:
+
+                            2 года на каркас изделий и фурнитуру
+                            18 месяцев на обивочные материалы
+                        </div>
+                    </div>
+                    <div class="faq__item" onclick="toggleFaq(this)">
+                        <div class="faq__title">
+                            <p>Как можно оплатить?</p>
+                            <img class="faq__arrow" src="./assets/img/faq.svg" alt="">
+                        </div>
+                        <div class="faq__disc">
+                            Гарантийный срок на мебель для кухни — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на корпусную мебель — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на мягкую мебель составляет:
+                            2 года на каркас изделий и фурнитуру
+                            18 месяцев на обивочные материалы
+                        </div>
+                    </div>
+                    <div class="faq__item" onclick="toggleFaq(this)">
+                        <div class="faq__title">
+                            <p>Требования по подготовке помещения к монтажу кухни</p>
+                            <img class="faq__arrow" src="./assets/img/faq.svg" alt="">
+                        </div>
+                        <div class="faq__disc">
+                            Гарантийный срок на мебель для кухни — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на корпусную мебель — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на мягкую мебель составляет:
+                            2 года на каркас изделий и фурнитуру
+                            18 месяцев на обивочные материалы
+                        </div>
+                    </div>
+                    <div class="faq__item" onclick="toggleFaq(this)">
+                        <div class="faq__title">
+                            <p>Какую гарантию Вы даёте?</p>
+                            <img class="faq__arrow" src="./assets/img/faq.svg" alt="">
+                        </div>
+                        <div class="faq__disc">
+                            Гарантийный срок на мебель для кухни — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на корпусную мебель — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на мягкую мебель составляет:
+                            2 года на каркас изделий и фурнитуру
+                            18 месяцев на обивочные материалы
+                        </div>
+                    </div>
+                    <div class="faq__item" onclick="toggleFaq(this)">
+                        <div class="faq__title">
+                            <p>Какую гарантию Вы даёте?</p>
+                            <img class="faq__arrow" src="./assets/img/faq.svg" alt="">
+                        </div>
+                        <div class="faq__disc">
+                            Гарантийный срок на мебель для кухни — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на корпусную мебель — 2 года при соблюдении условий эксплуатации.
+                            Гарантийный срок на мягкую мебель составляет:
+                            2 года на каркас изделий и фурнитуру
+                            18 месяцев на обивочные материалы
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="./assets/js/libs/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.5/jquery.inputmask.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/header.js"></script>
+</body>
+
+</html>
